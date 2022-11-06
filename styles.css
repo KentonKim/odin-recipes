@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #deb887;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
+    font-size: 3rem;
+}
+
+.navbar__container {
+    background-color: aliceblue;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main{
+    margin-top: 80px;
+}
+#navbar__logo {
+    padding-left: 20px;
+    text-decoration: none;
+    color: brown;
+    align-items: center;
+    cursor: pointer;
+}
+ 
+.image__container {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.image__comic {
+    max-width: 80%;
+    aspect-ratio: auto 1200 / 353;
+}
