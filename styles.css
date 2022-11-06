@@ -16,6 +16,7 @@
     width: 100%;
 
     font-size: 3rem;
+    z-index: 999;
 }
 
 .navbar__container {
@@ -43,9 +44,16 @@
     align-items: center;
     justify-content: center;
     text-align: center; 
+
 }
 
 .image__comic {
     max-width: 80%;
     aspect-ratio: auto 1200 / 353;
+}
+
+.spacing {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 2rem;
 }
